@@ -1,0 +1,19 @@
+{
+  "name": "bridge-evm",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prepare:chapel": "mustache config/bsc-testnet.json subgraph.template.yaml > subgraph.yaml",
+    "prepare:goerli": "mustache config/goerli.json subgraph.template.yaml > subgraph.yaml",
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.58.0",
+    "@graphprotocol/graph-ts": "0.30.0"
+  },
+  "devDependencies": {
+    "matchstick-as": "0.5.0",
+    "mustache": "^3.1.0" 
+  }
+}

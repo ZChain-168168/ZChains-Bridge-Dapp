@@ -1,0 +1,8 @@
+{
+  "chapel": {
+    "Factory": {
+      "address": "factory-contract",
+      "startBlock": 1
+    }
+  }
+}
