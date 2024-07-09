@@ -32,8 +32,8 @@ requires:   `// SPDX-License-Identifier: MIT` and `compiler 0.8.18`.
  | Fee Native | 10 ZCD | 0.0005 ETH |
  | Fee Token | 0.1% | 0% |
  | Min | 5 | 5 |
- | Allow to Chain | ETH | ZCHAIN |
- | Allow from Chain | ETH | ZCHAIN |
+ | Allow to Chain | ETH | ZCHAINS |
+ | Allow from Chain | ETH | ZCHAINS |
  | Subgraph | https://graphnode.evmbuilder.com/subgraphs/name/zchainbridge/graphql | https://api.studio.thegraph.com/proxy/81750/zchainbridge/version/latest/graphql |
 
 
