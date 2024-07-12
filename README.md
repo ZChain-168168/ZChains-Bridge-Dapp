@@ -23,9 +23,9 @@ requires:   `// SPDX-License-Identifier: MIT` and `compiler 0.8.18`.
 
  | | ZChain | Ethereum |
  |---|---|---|
- | Factory Contract | 0xCaBB303ebc4d61023CC4a4dd994025C492B075f9 | 0x36949EdB9EB05DcBC10959d1c53797bEBA3af7CE |
- | Bridge Origin Contract | 0x14fCce53de28bc9D87937a944EB02e7177E78ec9 | 0x171469c89a7ff40551da451572C58dff17Fb481f |
- | Bridge Contract | 0xa55E39B3127F4648f5b8f5F7F20F8a0a702938EE | 0x5b95efE600d496BF673e22622A8BE2Ab096aFBEE |
+ | Factory Contract | 0xCaBB303ebc4d61023CC4a4dd994025C492B075f9 | 0x10aCB3Dc7E4996a4aBED3F978B65B3c4Ac44b0D1 |
+ | Bridge Origin Contract | 0x14fCce53de28bc9D87937a944EB02e7177E78ec9 | 0x9710230642a455e2cfaa6d2ebb0d8d62de9ba054 |
+ | Bridge Contract | 0xa55E39B3127F4648f5b8f5F7F20F8a0a702938EE | 0xf6a9ed9844b4eabd13854a6d37ee845e30dff773 |
  | USDT | 0x818a65d080EfE45881DBC8f95f4184B9EF3582fD | 0xdac17f958d2ee523a2206206994597c13d831ec7 |
  | Deployer | 0xE11fce0B4b2AB0635Ae6d0cbB0b62e33F4a80924 | 0xE11fce0B4b2AB0635Ae6d0cbB0b62e33F4a80924 |
  | Monitor | 0xE11fce0B4b2AB0635Ae6d0cbB0b62e33F4a80924 | 0xE11fce0B4b2AB0635Ae6d0cbB0b62e33F4a80924 |
@@ -34,7 +34,7 @@ requires:   `// SPDX-License-Identifier: MIT` and `compiler 0.8.18`.
  | Min | 5 | 5 |
  | Allow to Chain | ETH | ZCHAINS |
  | Allow from Chain | ETH | ZCHAINS |
- | Subgraph | https://graphnode.evmbuilder.com/subgraphs/name/zchainbridge/graphql | https://api.studio.thegraph.com/proxy/81750/zchainbridge/version/latest/graphql |
+ | Subgraph | https://graphnode.evmbuilder.com/subgraphs/name/zchainbridge/graphql | https://api.studio.thegraph.com/query/81750/zchainbridge/version/latest |
 
 
 ### Bridge fee
