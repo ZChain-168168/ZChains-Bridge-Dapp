@@ -1,3 +1,5 @@
+Edited contract: [Bridge.sol](https://github.com/ZChain-168168/ZChains-Bridge-Dapp/blob/main/contracts/Bridge.sol)
+
 - [ ] BGB-03 RISK OF LOSING ADMIN ACCESS
 - [ ] BGB-07 OWNER ABLE TO REVOKE OWN ROLE
 
