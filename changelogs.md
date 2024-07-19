@@ -1,5 +1,5 @@
-- [] BGB-03 RISK OF LOSING ADMIN ACCESS
-- [] BGB-07 OWNER ABLE TO REVOKE OWN ROLE
+- [ ] BGB-03 RISK OF LOSING ADMIN ACCESS
+- [ ] BGB-07 OWNER ABLE TO REVOKE OWN ROLE
 
 ```
 function transferOwnership(address newOwner) public onlyOwner whenNotPaused returns (bool) {
@@ -12,13 +12,13 @@ function transferOwnership(address newOwner) public onlyOwner whenNotPaused retu
 }
 ```
 
-- [] BGB-04 UNCHECKED ERC-20 transfer() / transferFrom() CALL
+- [ ] BGB-04 UNCHECKED ERC-20 transfer() / transferFrom() CALL
 
 ```
   using SafeERC20 for IERC20;
 ```
 
-- [] BGB-05 MISSING ZERO ADDRESS VALIDATION
+- [ ] BGB-05 MISSING ZERO ADDRESS VALIDATION
 
 ```
 function transferOwnership(address newOwner)
@@ -48,9 +48,9 @@ function transferOwnership(address newOwner)
     }
 ```
 
-- [] GBS-04 USAGE OF transfer / send FOR SENDING NATIVE
+- [ ] GBS-04 USAGE OF transfer / send FOR SENDING NATIVE
 TOKENS
-- [] BGB-01 DISCUSSION ON bridgeFee COLLECTION IN
+- [ ] BGB-01 DISCUSSION ON bridgeFee COLLECTION IN
 receiveTokens FUNCTION
 
 ```
