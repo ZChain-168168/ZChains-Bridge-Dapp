@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.4.26+commit.4563c3fc"
+		"version": "0.4.17+commit.bdeb9e52"
 	},
 	"language": "Solidity",
 	"output": {
@@ -703,10 +703,9 @@
 		"compilationTarget": {
 			"tests/usdt.sol": "TetherToken"
 		},
-		"evmVersion": "byzantium",
 		"libraries": {},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
