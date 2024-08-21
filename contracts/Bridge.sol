@@ -313,6 +313,8 @@ contract Bridge is AccessControl, IBridge, Pausable {
         override
         onlyRole(getRoleAdmin(role))
     {
+        require(msg.sender != account, "Can not revokeRole your self!");
+        require(msg.sender != OWNER_WALLET, "Can not revokeRole owner!");
         super.revokeRole(role, account);
     }
 
