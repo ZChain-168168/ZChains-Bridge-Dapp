@@ -399,11 +399,11 @@
 			]
 		},
 		"contracts/Factory.sol": {
-			"keccak256": "0xaac60243f64be56b4d91e9eeaf84b82c9d32f8ef4ee233a6398fc2565094043e",
+			"keccak256": "0xc0648ced4a940066a1c7f081e032d4babe2b4fbd3e552eb378e251de065df3c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4dacce7d53982e0ff2984e61bb351423a8f65aa216c700c84d5d7b3464bbdea4",
-				"dweb:/ipfs/Qmd7Fz8ea2t7CNZWWt8ANVJq9q7yoZ8KM64YGUCVJJyJmQ"
+				"bzz-raw://4a10076baa5d3ced5294aff5e4be4112e377fbddd39250add99843b0372a273c",
+				"dweb:/ipfs/QmZWGsQegxF6Wv5Bnye5bMkSfyJ1gUpTzTnYhDumJK2fAC"
 			]
 		},
 		"contracts/IBridge.sol": {
