@@ -1176,11 +1176,11 @@
 			]
 		},
 		"contracts/Bridge.sol": {
-			"keccak256": "0xf37e2794f16ccd6a88336cea4fd2225832b31dc12fc48dd406a8e67d1844653a",
+			"keccak256": "0x6f58978d35f0e6845132ea3f0ebec5a03ddae3f9210886955ae9d67e66d46a6c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://893ddcbdad1fc348b5b427d3618d52803c70d06627a1d3d8f9f51aabaf972265",
-				"dweb:/ipfs/QmSLqLTSDh34vYPfdbUJgnxGvLbT73ce8gXa8zo1mATJWT"
+				"bzz-raw://3293bc6096dafb5ffeb6b109e6f910aa10fb94f9f11ab51b18aa63053b74e7d3",
+				"dweb:/ipfs/QmZYbDSLGc5PWPhWawH6ejX777mDzZQbTWz5Q1g6hdSJKC"
 			]
 		},
 		"contracts/Context.sol": {

@@ -344,7 +344,7 @@ contract Bridge is AccessControl, IBridge, Pausable {
         return true;
     }
 
-    function setMinTokenAmount(string memory blockchainName, uint256 newAmount)
+    function setMinTokenAmount(string calldata blockchainName, uint256 newAmount)
         public
         onlyOwner
         whenNotPaused
