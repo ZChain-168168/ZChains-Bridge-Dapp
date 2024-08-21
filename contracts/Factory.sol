@@ -5,14 +5,14 @@ import "./Context.sol";
 import "./Ownable.sol";
 import "./IERC20.sol";
 import "./CloneFactory.sol";
-import "./SafeMath.sol";
+// import "./SafeMath.sol";
 import "./IBridge.sol";
 import "./ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
 
 contract Factory is CloneFactory, ReentrancyGuard, Ownable {
     using Address for address payable;
-    using SafeMath for uint256;
+    // using SafeMath for uint256;
 
     event DeployedBridge(
         string projectId,
