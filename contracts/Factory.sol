@@ -69,6 +69,11 @@ contract Factory is CloneFactory, ReentrancyGuard, Ownable {
             token,
             deployFee
         );
+
+        uint256 refund = msg.value - deployFee;
+        if (refund > 0) {
+            payable(msg.sender).sendValue(refund);
+        }
     }
 
     function setListBridge(address contractOrigin, bool active)

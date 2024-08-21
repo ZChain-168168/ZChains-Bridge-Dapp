@@ -362,13 +362,13 @@
 		"compilationTarget": {
 			"contracts/Factory.sol": "Factory"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
@@ -399,11 +399,11 @@
 			]
 		},
 		"contracts/Factory.sol": {
-			"keccak256": "0x492a000538331910304895a85c6f17850722b8288eef374033ade7d75fce66d4",
+			"keccak256": "0xe5981c56050f5bca6c4a15b5b3deb5fc7db356245d46685f3a30ed669ddbdbf7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://562c1f44d1ebff96632a43ce79c5f86a99e87bd2af7f0de8c1468981bb62668e",
-				"dweb:/ipfs/QmX1yZ1W8sRS6iwFhr8mEXKaHDhuF15aTFLXupGbhCLFE6"
+				"bzz-raw://dbf67f6c5e3afa2b340832885aa46b7ba75780a4ee7ed58d0a38eb511bf4855b",
+				"dweb:/ipfs/QmYjJAD6Dc3D3jmX5TPdgdfq7fAznoK7V2nxvUCeGGaGSC"
 			]
 		},
 		"contracts/IBridge.sol": {

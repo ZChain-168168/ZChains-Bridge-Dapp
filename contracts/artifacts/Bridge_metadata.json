@@ -1123,13 +1123,13 @@
 		"compilationTarget": {
 			"contracts/Bridge.sol": "Bridge"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
@@ -1176,11 +1176,11 @@
 			]
 		},
 		"contracts/Bridge.sol": {
-			"keccak256": "0xb1bf569fbdc14f67fcbcc3fd5cc96c90e5afaf633a9f5e3fcbf4154adad1be6f",
+			"keccak256": "0x0ab21a13b71ab297cc95d626ce42aa21d06c14d2c9e632041e46269021cbc8a3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b0a49289ecd2d7d77a901ca541cb9a4ce8f00f4f4cce7896ff51888d9de6af92",
-				"dweb:/ipfs/QmeqDnNeoPbUwoWKsK6hRJVUseCdC8stFy5DcdtwqCePkn"
+				"bzz-raw://de53399c31836981c763e207a4ee6b52c2b7567106087c45e65537238583a566",
+				"dweb:/ipfs/QmUeRpD1EnMLeH6cwQ833XLA4R7WVVPLR1YbbWZVHVKwDL"
 			]
 		},
 		"contracts/Context.sol": {
