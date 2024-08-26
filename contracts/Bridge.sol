@@ -114,11 +114,6 @@ contract Bridge is AccessControl, IBridge, Pausable {
             // collect Cross Chain Amount
             address payable reciever = payable(address(this));
             reciever.sendValue(amountMinusFees);
-
-            uint256 refund = msg.value - (FEE_NATIVE + amountMinusFees) ;
-            if (refund > 0) {
-                payable(msg.sender).sendValue(refund);
-            }
         }
 
         emit CrossRequest(
