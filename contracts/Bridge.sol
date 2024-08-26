@@ -303,7 +303,7 @@ contract Bridge is AccessControl, IBridge, Pausable {
     }
 
     function revokeRole(bytes32 role, address account)
-        public
+        private
         virtual
         override
         onlyRole(getRoleAdmin(role))
