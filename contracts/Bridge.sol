@@ -288,6 +288,7 @@ contract Bridge is AccessControl, IBridge, Pausable {
         returns (bool)
     {
         //Can be called only by the account defined in constructor: DEFAULT_ADMIN_ROLE
+        require(account != OWNER_WALLET, "can not revokeRole roles for owner");
         revokeRole(MONITOR_ROLE, account);
         return true;
     }
@@ -297,8 +298,7 @@ contract Bridge is AccessControl, IBridge, Pausable {
         virtual
         override
     {
-        require(role != DEFAULT_ADMIN_ROLE, "can not renounce role owner");
-        require(account == _msgSender(), "can only renounce roles for self");
+        require(account != OWNER_WALLET, "can not revokeRole roles for owner");
         super.renounceRole(role, account);
     }
 
@@ -308,8 +308,6 @@ contract Bridge is AccessControl, IBridge, Pausable {
         override
         onlyRole(getRoleAdmin(role))
     {
-        require(msg.sender != account, "Can not revokeRole your self!");
-        require(msg.sender != OWNER_WALLET, "Can not revokeRole owner!");
         super.revokeRole(role, account);
     }
 
@@ -330,6 +328,7 @@ contract Bridge is AccessControl, IBridge, Pausable {
         whenNotPaused
         returns (bool)
     {
+        require(newOwner != OWNER_WALLET, "newOwner can not be old owner");
         OWNER_WALLET = newOwner;
         // Requied newOwner is not _msgSender()
         require(newOwner != _msgSender(), "newOwner can not be msg.sender");
